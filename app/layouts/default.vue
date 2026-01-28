@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import AppHeader from "~/components/common/AppHeader.vue";
+import Footer from "~/components/common/Footer.vue";
 import NewsLetter from "~/components/common/NewsLetter.vue";
 </script>
 
@@ -7,6 +8,7 @@ import NewsLetter from "~/components/common/NewsLetter.vue";
   <div class="app-layout">
     <AppHeader />
     <slot />
-    <NewsLetter />
+    <NewsLetter /> 
+    <Footer />
   </div>
 </template>
